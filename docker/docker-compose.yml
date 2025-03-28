@@ -12,6 +12,7 @@ services:
     environment:
       - VIRTUAL_HOST=focalboard.local
       - VIRTUAL_PORT=8000
+      - EXCLUDE_ENTERPRISE="1"
 
 volumes:
   fbdata:
